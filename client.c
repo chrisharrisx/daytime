@@ -11,7 +11,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define MAXLINE 4096 /* max text line length */
+#define MAXLINE 4096
 #define HOSTMAX 255
 #define IPMAX 128
 #define SERVICEMAX 32
@@ -19,7 +19,7 @@
 #define PORT 2
 #define SEC_DESTINATION 3
 #define SEC_PORT 4
-#define LISTENQ 1024 /* 2nd argument to listen() */
+#define LISTENQ 1024
 
 void parse_args(int, char **, int, int, int *, char **, char **, bool *);
 bool validate_portnumber(char **, int);
